@@ -14,6 +14,7 @@ var
 def tokenize(phrase):
     """This is a commandline tool that tokenizes phrases"""
 
+    
     click.echo(
         click.style(f"tokenized phrase: {phrase.split()}", bg="yellow", fg="blue")
     )
